@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.menu{
+    background-color: rgb(140, 106, 92);
+    list-style-type: none;
+    width: 100%;
+    position: fixed;
+    overflow: auto;
+}
+.menu li{
+    float: left;
+}
+.menu li a{
+    color: rgb(255, 255, 255);
+    font-size: large;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px;
+    justify-content: center;
+    display: inline-block;
+}
+.menu li:hover{
+    transition: 0.6s;
+    background-color: grey;
+}
+.fondo{
+    background-image: url(https://a.storyblok.com/f/178900/1504x846/43c645d797/chainsaw-man-ed-4.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 600px;
+}
+.texto-fondo {
+    height: 350px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.textoPrincipal {
+    margin-top: 16%;
+    font-size: 60px;
+    text-shadow: 0 0 50px black;
+}
+.fondo-color{
+    background-color: rgb(123, 53, 53);
+}
+.cards{
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid black;
+}
+.icon-oferta{
+    list-style-type: none;
+}
+.titulos-section{
+    font-size: xx-large;
+    color: white;
+    text-align: center;
+    margin-bottom: 100px;
+    padding-top: 90px;
+    text-shadow: 0 0 30px black;
+}
+.card-oferta{
+    margin-left: 20px;
+    margin-right: 20px;
+    align-items: center;
+}
